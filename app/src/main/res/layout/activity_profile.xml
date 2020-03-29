@@ -4,48 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@color/ic_launcher_background"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".ProfileActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_height="wrap_content">
-    <ImageView
-        android:id="@+id/imageViewUser"
-        android:layout_width="236dp"
-        android:layout_height="270dp"
-        android:layout_marginBottom="35dp"
-        app:srcCompat="@drawable/icon_user"
-        android:contentDescription="TODO" />
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewUser"
+            android:layout_width="236dp"
+            android:layout_height="270dp"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/icon_user" />
 
     </LinearLayout>
+
     <TextView
         android:id="@+id/textViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:text="Nombre de usuario:"
         android:textAlignment="center"
-        android:textSize="18sp"
-        android:gravity="center_horizontal" />
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textViewMail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
         android:text="Correo de usuario:"
         android:textAlignment="center"
-        android:textSize="18sp"
-        android:layout_marginTop="10dp"
-        android:gravity="center_horizontal" />
-    
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
     <Button
         android:id="@+id/btnSignOut"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="Cerrar Sesion"
         android:layout_marginTop="20dp"
-        android:background="@color/colorAccent"/>
+        android:background="@color/colorLogin"
+        android:text="Cerrar Sesion" />
 </LinearLayout>
