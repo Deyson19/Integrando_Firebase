@@ -17,7 +17,7 @@
         android:id="@+id/imageViewUser"
         android:layout_width="236dp"
         android:layout_height="270dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginBottom="35dp"
         app:srcCompat="@drawable/icon_user"
         android:contentDescription="TODO" />
 
