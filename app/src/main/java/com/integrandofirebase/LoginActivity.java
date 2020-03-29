@@ -19,7 +19,8 @@ public class LoginActivity extends AppCompatActivity {
 
     EditText mEditTextMail;
     EditText mEditTextPassword;
-    Button mBuuttonLogin;
+    Button mButtonLogin;
+    Button mButtonResetPassword;
 
     String mail = "";
     String password = "";
@@ -35,9 +36,10 @@ public class LoginActivity extends AppCompatActivity {
 
         mEditTextMail = findViewById(R.id.edtTextMail);
         mEditTextPassword = findViewById(R.id.edtTextPwd);
-        mBuuttonLogin = findViewById(R.id.btnLogin);
+        mButtonLogin = findViewById(R.id.btnLogin);
+        mButtonResetPassword = findViewById(R.id.btnSendToResetPassword);
 
-        mBuuttonLogin.setOnClickListener(new View.OnClickListener() {
+        mButtonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mail = mEditTextMail.getText().toString();
@@ -48,6 +50,14 @@ public class LoginActivity extends AppCompatActivity {
                 }else{
                     Toast.makeText(LoginActivity.this,"Debes rellenar los campos",Toast.LENGTH_LONG).show();
                 }
+            }
+        });
+
+        mButtonResetPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(LoginActivity.this,ResetPasswordActivity.class);
+                startActivity(i);
             }
         });
     }
