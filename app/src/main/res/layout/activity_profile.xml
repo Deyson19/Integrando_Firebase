@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de usuario:"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textViewMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo de usuario:"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" />
+    
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesion"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"/>
+</LinearLayout>

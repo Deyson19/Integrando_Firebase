@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "630207419950",
+    "firebase_url": "https://integrando-firebase-7f7a8.firebaseio.com",
+    "project_id": "integrando-firebase-7f7a8",
+    "storage_bucket": "integrando-firebase-7f7a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630207419950:android:da9c798b5774456873b1bf",
+        "android_client_info": {
+          "package_name": "com.integrandofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630207419950-d67ugig1urd36f0qgnqiv450gajfp0ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT9ld9XXA47vtGBMTU3Ocs6ZhOxwLWNnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630207419950-d67ugig1urd36f0qgnqiv450gajfp0ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
