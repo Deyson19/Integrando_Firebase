@@ -13,14 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="10dp"
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/imageViewUser"
             android:layout_width="236dp"
             android:layout_height="270dp"
-            android:layout_marginBottom="30dp"
             android:contentDescription="TODO"
             app:srcCompat="@drawable/icon_user" />
 
@@ -33,7 +32,6 @@
         android:gravity="center_horizontal"
         android:text="Nombre de usuario:"
         android:textAlignment="center"
-        android:layout_marginTop="10dp"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp" />
 
